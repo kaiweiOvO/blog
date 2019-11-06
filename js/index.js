@@ -143,7 +143,7 @@ $(function(){
         setTimeout(() => {
             $('.me').show();
             $('.me').animate({opacity: 1},'slow');
-        }, 6000);
+        }, 1000);
         var interval = setInterval(() => {
             ctx.clearRect(0,0,canvas.width,canvas.height);
             for(var i=0;i<imgs.length;i++)
